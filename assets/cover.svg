@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Jerry — education meets engineering</title>
+  <desc id="desc">Dark navy banner with a subtle constellation of connected nodes and a focus on STEM education, products and engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071727"/>
+      <stop offset="0.56" stop-color="#0C2842"/>
+      <stop offset="1" stop-color="#142D45"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79E6D1"/>
+      <stop offset="1" stop-color="#79BFFF"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#4388B8" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#4388B8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#719AB9" stroke-width="0.8" opacity="0.13"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+  <ellipse cx="1080" cy="162" rx="280" ry="280" fill="url(#glow)"/>
+  <path d="M 58 59 H 137" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <text x="58" y="100" fill="#B1CFE4" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4">ENGINEERING FOR LEARNING</text>
+  <text x="56" y="187" fill="#F4FBFF" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="1">JERRY</text>
+  <text x="60" y="236" fill="#91DFD3" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="500">Education  /  Products  /  Open Source</text>
+  <text x="61" y="277" fill="#A2B9C9" font-family="Arial, Helvetica, sans-serif" font-size="16">Curiosity, translated into things people can use.</text>
+  <g stroke="#78D9DC" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M 902 99 L 1001 57 L 1114 106 L 1057 192 L 919 221 Z"/>
+    <path d="M 902 99 L 1057 192 L 1158 250 L 1194 143 L 1114 106"/>
+    <path d="M 1001 57 L 1057 192 L 1194 143"/>
+    <path d="M 919 221 L 1158 250" opacity="0.4"/>
+  </g>
+  <g fill="#8CECDD">
+    <circle cx="902" cy="99" r="6"/>
+    <circle cx="1001" cy="57" r="7"/>
+    <circle cx="1114" cy="106" r="8"/>
+    <circle cx="1057" cy="192" r="9"/>
+    <circle cx="919" cy="221" r="6"/>
+    <circle cx="1158" cy="250" r="7"/>
+    <circle cx="1194" cy="143" r="6"/>
+  </g>
+  <g fill="#F5FCFF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+    <text x="1001" y="35">LEARN</text>
+    <text x="1057" y="224">BUILD</text>
+    <text x="1158" y="280">SHIP</text>
+  </g>
+</svg>
